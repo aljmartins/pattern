@@ -112,6 +112,7 @@ def desenhar_campo(rastreador):
 
 st.title("⚽ Rastreamento + estatística — pipeline simulado")
 st.caption("Etapas 04/05 do infográfico, rodando ao vivo. Troque os parâmetros na barra lateral.")
+st.page_link("pages/Como_funciona.py", label="Entenda como o app funciona", icon="📖")
 
 with st.sidebar:
     st.header("Parâmetros da simulação")
@@ -126,7 +127,7 @@ col1, col2 = st.columns([1.2, 1])
 
 with col1:
     st.subheader("Trajetórias reconstruídas")
-    st.image(desenhar_campo(rastreador), use_container_width="stretch")
+    st.image(desenhar_campo(rastreador), width="stretch")
 
 with col2:
     st.subheader("Distância por track")
