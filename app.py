@@ -113,6 +113,7 @@ def desenhar_campo(rastreador):
 st.title("⚽ Rastreamento + estatística — pipeline simulado")
 st.caption("Etapas 04/05 do infográfico, rodando ao vivo. Troque os parâmetros na barra lateral.")
 st.page_link("pages/Como_funciona.py", label="Entenda como o app funciona", icon="📖")
+st.page_link("pages/Plantas_daninhas.py", label="Segundo estudo de caso: plantas daninhas em imagens de drone", icon="🌱")
 
 with st.sidebar:
     st.header("Parâmetros da simulação")
